@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Reader"
+  short_description: "Create six-part Chinese paper notes, save them to Read.md, follow category agent.md rules, and maintain recurring terminology maps."
+  default_prompt: "Read the paper carefully, locate the nearest category-specific agent.md from the paper path when available, produce a faithful six-part Chinese Markdown reading note, save the note to Read.md in the paper directory by default, and update the category's default terminology map when recurring domain terms worth reusing appear."
